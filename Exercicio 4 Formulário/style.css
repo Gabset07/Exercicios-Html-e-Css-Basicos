@@ -1,0 +1,35 @@
+
+
+body{
+    height: 800px;
+    width: 600px;
+    margin: auto;
+    background-color: rgb(233, 226, 217);
+}
+
+.formulario{
+    background-color: rgb(196, 184, 176);
+    border-radius: 5px;
+    margin-top: 100px;
+    
+}
+.botao{
+    display: flex;
+    justify-content: center;
+}
+
+.envio{
+    display: flex;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(16, 156, 63);
+    text-align: center;
+    font-size: 15px;
+}

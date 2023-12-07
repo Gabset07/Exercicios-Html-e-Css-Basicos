@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form method="GET" action="index.html" class="formulario">
+        <h1>Cadastre-se</h1>
+        <h3>É rápido e fácil</h3>
+
+
+        <input type="text" placeholder="Nome" id="Nome">
+        <input type="text" placeholder="Sobrenome" id="Nome"><br><br>
+        <input type="text" placeholder="Celular ou email" id="Celular" required> <br><br>
+        <input type="password" placeholder="Senha" id="Senha">
+
+        <h4>Data de nascimento</h4>
+        <select name="Dia" id="Dia">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+        </select>
+
+        <select name="Mes" id="Mes">
+            <option value="Janeiro">Janeiro</option>
+            <option value="Fevereiro">Fevereiro</option>
+            <option value="Março">Março</option>
+            <option value="Abril">Abril</option>
+            <option value="Maio">Maio</option>
+            <option value="Junho">Junho</option>
+        </select>
+
+        <select name="Ano" id="Ano">
+            <option value="1990">1990</option>
+            <option value="1991">1991</option>
+            <option value="1992">1992</option>
+            <option value="1993">1993</option>
+            <option value="1994">1994</option>
+            <option value="1995">1995</option>
+            <option value="1996">1996</option>
+            <option value="1997">1997</option>
+        </select>
+
+
+        <h3>Gênero</h3>
+
+        <label for="Feminino">Feminino</label>
+        <input type="radio" id="Feminino" name="genero">
+
+
+        <label for="Masculino">Masculino</label>
+        <input type="radio" name="genero" id="Masculino">
+
+        <label for="Personalizado">Personalizado</label>
+        <input type="radio" name="genero" id="Personalizado">
+
+        <h5>Ao clicar em Cadastre-se , você concorda com nossos termos <a href="#">Termos,Politicas de Dados e Politicas
+                de Cookies</a>.Você podera receber notificações por SMS e cancelar isso quando quiser</h5>
+
+        <div class="envio">
+            <input type="submit" value="Cadastre-se" class="botao">
+        </div>
+
+    </form>
+
+</body>
+
+</html>
